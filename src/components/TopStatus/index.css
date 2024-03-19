@@ -1,0 +1,23 @@
+.topStatusContainer {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  max-height: 24px;
+}
+
+.time-display {
+  color: white;
+  font-size: 14px;
+  font-family: Mulish;
+  margin-left: 50px;
+  opacity: 1;
+}
+.status-indicators-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+.status-indicator-icon {
+  margin-right: 10px;
+}

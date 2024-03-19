@@ -1,0 +1,177 @@
+.home-container {
+  min-height: 100vh;
+  border: 1px solid black;
+  background-image: linear-gradient(180deg, #000000 0%, #000e09 100%);
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+}
+.contact-image {
+  width: 54px;
+  height: 54px;
+  margin-top: 15px;
+  align-self: flex-end;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.moptro-image {
+  width: 68px;
+  height: 68px;
+}
+
+.count-container {
+  background-color: #5e5e5eb5;
+  box-shadow: inset 0px 4px 0px #00000040;
+  border: 1px solid #fffefe00;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 16px;
+  right: 6px;
+  opacity: 0.4;
+  filter: blur(2px);
+}
+.count {
+  font-family: 'roboto';
+  color: #36a546;
+  position: relative;
+  bottom: 22px;
+  right: 30px;
+}
+
+.productivity-dashboard-head {
+  background-image: linear-gradient(#0f2323, #0f2323);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  position: relative;
+  top: 40px;
+  max-height: 52px;
+  margin-top: 0px;
+}
+
+.dashboard-head {
+  font-family: Arial;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #ffffffb3;
+}
+
+@media (min-width: 364px) {
+  .dashboard-head {
+    font-size: 18px;
+  }
+}
+
+.productivity-dashboard-wrapper {
+  background-image: linear-gradient(#151a15, #151a15);
+  box-shadow: inset 0px 4px 0px #00000040;
+  padding: 15px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-right: 25px;
+  border-radius: 16px;
+}
+@media (min-width: 365px) {
+  .productivity-dashboard-wrapper {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+}
+.productive-content {
+  margin-bottom: 5px;
+}
+
+.productive-day-percentage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 14px;
+}
+.productive-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 0.8px;
+}
+
+.percentage {
+  color: #36a546;
+}
+.productive-monday {
+  width: 6px;
+  height: 11px;
+  border-radius: 12px;
+  background-color: #36a54680;
+  border: 1px solid #36a546;
+}
+.percentage-tuesday {
+  width: 140px;
+  height: 11px;
+  border-radius: 12px;
+  background-color: #36a54680;
+  border: 1px solid #36a546;
+}
+.percentage-wednesday {
+  width: 183px;
+  height: 11px;
+  border-radius: 12px;
+  background-color: #36a54680;
+  border: 1px solid #36a546;
+}
+.percentage-thursday {
+  width: 132px;
+  height: 11px;
+  border-radius: 12px;
+  background-color: #36a54680;
+  border: 1px solid #36a546;
+}
+.percentage-friday {
+  width: 132px;
+  height: 11px;
+  border-radius: 12px;
+  background-color: #36a54680;
+  border: 1px solid #36a546;
+}
+.percentage-saturday {
+  width: 146px;
+  height: 11px;
+  border-radius: 12px;
+  background-color: #36a54680;
+  border: 1px solid #36a546;
+}
+.bottom-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-self: stretch;
+  background-image: linear-gradient(#0f2323, #0f2323);
+  box-shadow: inset 8px 4px 4px #00000040;
+  border-radius: 22px;
+  border: 1px solid #0f2323;
+  padding: 10px;
+}
+
+.bottom-navbar button {
+  background-color: transparent;
+}
+.nav-icon {
+  color: #36a546;
+}
